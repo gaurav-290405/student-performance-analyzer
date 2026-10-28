@@ -1,5 +1,5 @@
 model,settings,cv_f1_fail,cv_recall_fail
 Majority class,default,0.0,0.0
-Logistic regression,default,0.528,0.535
-Decision tree,default,0.516,0.508
-Random Forest (tuned),"{'model__max_depth': 8, 'model__min_samples_leaf': 5, 'model__n_estimators': 300}",0.545,0.473
+Logistic regression,default,0.532,0.568
+Decision tree,default,0.465,0.482
+Random Forest (tuned),"{'model__max_depth': None, 'model__min_samples_leaf': 3, 'model__n_estimators': 300}",0.498,0.501

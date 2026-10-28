@@ -1,23 +1,23 @@
 {
-  "data_source": "SYNTHETIC data (UCI schema) - replace with real student-mat.csv",
+  "data_source": "UCI student-mat.csv (real data)",
   "threshold_fail": 0.35,
-  "recall_fail": 0.857,
-  "precision_fail": 0.4,
-  "f1_fail": 0.545,
-  "roc_auc": 0.616,
+  "recall_fail": 0.808,
+  "precision_fail": 0.389,
+  "f1_fail": 0.525,
+  "roc_auc": 0.655,
   "n_test": 79,
   "top_factors": [
-    "failures",
-    "famrel",
+    "goout",
+    "freetime",
     "Walc",
     "sex",
-    "alcohol_total"
+    "activities"
   ],
   "fairness_recall_by_group": {
-    "sex=m": 0.8,
-    "sex=f": 0.923,
-    "school=gp": 0.846,
+    "sex=f": 0.706,
+    "sex=m": 1.0,
+    "school=gp": 0.773,
     "school=ms": 1.0
   },
-  "grade_mae": 1.96
+  "grade_mae": 2.96
 }

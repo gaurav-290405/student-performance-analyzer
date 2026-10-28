@@ -1,7 +1,7 @@
 hypothesis,p_value,result
-H1 Absences differ between pass/fail,0.1566,not significant
-H2 Study time differs between pass/fail,0.0082,significant
+H1 Absences differ between pass/fail,0.2397,not significant
+H2 Study time differs between pass/fail,0.128,not significant
 H3 Past failures differ between pass/fail,0.0,significant
-H4 Going out differs between pass/fail,0.7906,not significant
-H5 Final grade differs by internet access,0.2435,not significant
-H6 Final grade differs by sex,0.3605,not significant
+H4 Going out differs between pass/fail,0.0003,significant
+H5 Final grade differs by internet access,0.0496,significant
+H6 Final grade differs by sex,0.0396,significant
